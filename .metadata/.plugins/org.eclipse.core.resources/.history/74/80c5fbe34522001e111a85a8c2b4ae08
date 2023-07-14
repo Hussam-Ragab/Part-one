@@ -1,0 +1,22 @@
+/*
+ * Write a program that print your name and your grade in a new line.
+ *
+ * */
+
+#include <stdio.h>
+
+int main(void)
+{
+	char name,grade;
+	printf("enter your name and your grade\n");
+	fflush(stdout);
+	scanf("%s%s",&name,&grade);
+	printf("enter your grade\n");
+	scanf("%s",&grade);
+	printf("My Name %s\tMy Grade %s",name,grade);
+
+
+
+	return 0;
+}
+

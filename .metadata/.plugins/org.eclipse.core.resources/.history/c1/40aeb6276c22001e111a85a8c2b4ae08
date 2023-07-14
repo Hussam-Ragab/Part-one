@@ -1,0 +1,19 @@
+
+/*
+ *  Print sum of first 100 integers. (With data validation)
+ *
+ * */
+
+#include <stdio.h>
+#define MAX_NUM		100
+
+int main(void)
+{
+	int sum = 0, iterator;
+	for(iterator = 0; iterator<MAX_NUM; iterator++)
+	{
+		sum += iterator;
+	}
+
+	return 0;
+}

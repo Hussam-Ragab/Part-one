@@ -1,0 +1,47 @@
+
+/*
+ * Write a program that reads a positive integer and checks if it is a prime.
+ *
+ * */
+
+#include <stdio.h>
+#define FALSE	0
+#define TRUE	1
+
+int main(void)
+{
+	int num,iterator,Flag = TRUE;
+
+		do{
+			printf("enter number\n");
+			fflush(stdout);
+			scanf("%d",&num);
+		}while(num<0);
+
+		if(num == 0 || num == 1)
+		{
+			Flag = FALSE;
+		}
+
+		for(iterator = 2; iterator < num; ++iterator)
+		{
+			if(num%iterator == 0)
+			{
+				Flag = FALSE;
+				break;
+			}
+		}
+		if(Flag == FALSE)
+		{
+			printf("%d not a prime number\n",num);
+		}
+		else
+		{
+			printf("%d prime number\n",num);
+		}
+
+
+	return 0;
+}
+
+

@@ -1,0 +1,16 @@
+
+/*
+ * Write a program that reads a positive integer and checks if it is a prime.
+ *
+ * */
+
+#include <stdio.h>
+
+int main(void)
+{
+
+
+	return 0;
+}
+
+

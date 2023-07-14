@@ -1,0 +1,19 @@
+
+/*
+ *Write a program to print the ASCII value of a character input by the user.
+ *
+ * */
+
+#include <stdio.h>
+
+int main(void)
+{
+	char ch;
+	printf("enter the character\n");
+	fflush(stdout);
+	scanf("%c",&ch);
+	printf("ASCII of %c = %d",ch,ch);
+
+
+	return 0;
+}

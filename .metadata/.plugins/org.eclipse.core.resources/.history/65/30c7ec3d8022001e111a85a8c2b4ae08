@@ -1,0 +1,45 @@
+/*
+ *  Write a program to count number of digits in a decimal number.
+ *
+ */
+
+#include <stdio.h>
+
+int main(void)
+{
+	int num,digit = 0,remainder;
+	printf("enter number\n");
+	fflush(stdout);
+	scanf("%d",&num);
+	while(num != 0)
+	{
+		remainder = num%10;
+		num /= 10;
+		digit++;
+	}
+	printf("Reverse = %d \n",reverse);
+
+	return 0;
+}
+
+ *
+ * */
+
+#include <stdio.h>
+
+int main(void)
+{
+	int num,reverse = 0,remainder;
+	printf("enter number\n");
+	fflush(stdout);
+	scanf("%d",&num);
+	while(num != 0)
+	{
+		remainder = num%10;
+		reverse = reverse * 10 + remainder;
+		num /= 10;
+	}
+	printf("Reverse = %d \n",reverse);
+
+	return 0;
+}

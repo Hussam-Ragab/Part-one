@@ -1,0 +1,28 @@
+
+/*
+ *  Write a program to display English alphabets from A to Z.
+ *
+ * */
+
+#include <stdio.h>
+#define FALSE	0
+#define TRUE	1
+
+int main(void)
+{
+	char letter,iterator;
+	printf("enter Capital Letter Z\n");
+	fflush(stdout);
+	scanf("%c",&letter);
+
+	for(iterator = letter; iterator >= 'A'; --iterator)
+	{
+		printf("%c\t",iterator);
+
+	}
+
+
+	return 0;
+}
+
+

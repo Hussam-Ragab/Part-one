@@ -1,0 +1,19 @@
+
+/*
+ *Write a program that reads the radius of a circle and calculates the area and circumference then prints the results.
+ *
+ * */
+
+#include <stdio.h>
+
+int main(void)
+{
+	int num1,num2,Result;
+	printf("enter two numbers\n");
+	fflush(stdout);
+	scanf("%d%d",&num1,&num2);
+	Result = ((num1 + num2) * 3) - 10;
+	printf("Result = %d\n",Result);
+
+	return 0;
+}

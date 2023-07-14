@@ -1,0 +1,14 @@
+
+/*
+ *Write a program to print the ASCII value of a character input by the user.
+ *
+ * */
+
+#include <stdio.h>
+
+int main(void)
+{
+
+
+	return 0;
+}

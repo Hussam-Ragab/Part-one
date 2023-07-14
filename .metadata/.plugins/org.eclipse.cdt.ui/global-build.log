@@ -1,0 +1,8 @@
+Info: Nothing to build for A17
+21:58:12 **** Incremental Build of configuration Debug for project A17 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o A17.o "..\\A17.c" 
+gcc -o A17.exe A17.o 
+Info: Nothing to build for A17
+Info: Nothing to build for A17
+Info: Nothing to build for A17

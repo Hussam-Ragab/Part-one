@@ -1,0 +1,26 @@
+
+/*
+ * Write a program that take two integers from the user and print the results of this equation:
+ * Result = ((num1 + num2) * 3) – 10
+ *
+ * */
+
+#include <stdio.h>
+
+int main(void)
+{
+	int num,iterator,Result = 1;
+
+	do{
+		printf("enter number\n");
+		fflush(stdout);
+		scanf("%d",&num);
+	}while(num<=0);
+
+	for(iterator = num; iterator <= 1; iterator++)
+	{
+		Result *= iterator;
+	}
+
+	return 0;
+}

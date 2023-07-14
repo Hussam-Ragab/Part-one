@@ -1,0 +1,17 @@
+/*
+ *  Write a program to reverse a number.
+ *
+ * */
+
+#include <stdio.h>
+
+int main(void)
+{
+	int num,reverse = 0,remaider;
+	printf("enter number\n");
+	fflush(stdout);
+	scanf("%d",&num);
+	while(num != 0)
+
+	return 0;
+}

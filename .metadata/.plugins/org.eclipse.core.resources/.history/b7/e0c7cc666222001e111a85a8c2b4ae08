@@ -1,0 +1,21 @@
+
+/*
+ * Write a program that reads a positive integer and checks if it is a perfect square.
+ *
+ * */
+
+#include <stdio.h>
+
+int main(void)
+{
+	int num;
+
+	do{
+		printf("enter number\n");
+		fflush(stdout);
+		scanf("%d",&num);
+	}while(num<=0);
+
+	if()
+
+}

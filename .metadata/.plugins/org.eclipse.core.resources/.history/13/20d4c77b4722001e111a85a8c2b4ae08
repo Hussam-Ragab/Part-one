@@ -1,0 +1,28 @@
+/*
+ * Write a program that print your name and your grade in a new line.
+ *
+ * */
+
+#include <stdio.h>
+
+int main(void)
+{
+	/*char name[20];
+	float grade;
+	printf("enter your name\n");
+	fflush(stdout);
+	scanf("%s",&name);
+	printf("enter your grade\n");
+	scanf("%f",&grade);
+	printf("My Name: %s\nMy Grade: %.2f",name,grade);
+	*/
+
+	 char name[20] = "Hossam Ragab";
+	 float grade = 93.9;
+	 printf("My Name: %s\nMy Grade: %.2f",name,grade);
+	 fflush(stdout);
+
+
+	return 0;
+}
+
